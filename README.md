@@ -30,9 +30,9 @@ PocketWisdomAI/
 │
 ├── app/                             # Main app directory
 │   ├── app.py                       # Streamlit app interface
-│   └── faiss_youtube_index/        # Local copy of the FAISS index for the app
+│   └── faiss_youtube_index/         # Local copy of the FAISS index for the app
 │
-├── youtube_transcripts/            # Educational text data used to build the index
+├── youtube_transcripts/             # Educational text data used to build the index
 │   ├── Art.txt
 │   ├── Biology.txt
 │   ├── Chemistry.txt
@@ -43,9 +43,9 @@ PocketWisdomAI/
 │
 ├── Evaluation.ipynb                # Notebook for LangSmith-based evaluation
 ├── VectotStore+Agent&tools.ipynb   # Tool definitions, retriever and agent setup
-├── YouTube_decipher.ipynb          # Optional script for extracting YouTube content
-├── requirements.txt                # List of Python dependencies
-└── .env                            # API keys and environment variables
+├── YouTube_decipher.ipynb          # Script for extracting YouTube content
+├── requirements.txt                
+└── .env                            
 ```
 
 ## Technologies Used
