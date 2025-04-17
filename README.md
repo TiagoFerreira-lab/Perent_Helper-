@@ -22,7 +22,31 @@ LangSmith Evaluation: Validates output accuracy, hallucination, and relevance
 Streamlit App: Friendly local interface for natural language chat
 
 ## Project Structure
-<pre> ``` PocketWisdomAI/ ├── faiss_youtube_index/ │ ├── index.faiss │ └── index.pkl │ ├── app/ │ ├── app.py │ └── faiss_youtube_index/ │ ├── youtube_transcripts/ │ ├── Art.txt │ ├── Biology.txt │ ├── Chemistry.txt │ ├── Computer_Science.txt │ ├── Geography.txt │ ├── History.txt │ └── Physics.txt │ ├── Evaluation.ipynb ├── VectotStore+Agent&tools.ipynb ├── YouTube_decipher.ipynb ├── requirements.txt └── .env ``` </pre>
+```
+PocketWisdomAI/
+├── faiss_youtube_index/
+│   ├── index.faiss
+│   └── index.pkl
+│
+├── app/
+│   ├── app.py
+│   └── faiss_youtube_index/
+│
+├── youtube_transcripts/
+│   ├── Art.txt
+│   ├── Biology.txt
+│   ├── Chemistry.txt
+│   ├── Computer_Science.txt
+│   ├── Geography.txt
+│   ├── History.txt
+│   └── Physics.txt
+│
+├── Evaluation.ipynb
+├── VectotStore+Agent&tools.ipynb
+├── YouTube_decipher.ipynb
+├── requirements.txt
+└── .env
+```
 
 ## Technologies Used
 LangChain + Agents
