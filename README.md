@@ -43,9 +43,9 @@ PocketWisdomAI/
 ├── Evaluation.ipynb
 ├── VectotStore+Agent&tools.ipynb
 ├── YouTube_decipher.ipynb
-|
 ├── requirements.txt
 └── .env
+
 
 ## Technologies Used
 LangChain + Agents
