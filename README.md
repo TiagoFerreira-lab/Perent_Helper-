@@ -1,4 +1,4 @@
-### PocketWisdom AI – YouTube-Powered Educational Assistant
+# PocketWisdom AI – YouTube-Powered Educational Assistant
 
 
 ## Project Overview
