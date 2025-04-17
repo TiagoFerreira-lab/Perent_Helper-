@@ -24,15 +24,15 @@ Streamlit App: Friendly local interface for natural language chat
 ## Project Structure
 ```
 PocketWisdomAI/
-├── faiss_youtube_index/
-│   ├── index.faiss
-│   └── index.pkl
+├── faiss_youtube_index/             # Saved FAISS vector store for fast retrieval
+│   ├── index.faiss                  # FAISS index file
+│   └── index.pkl                    # Metadata and vector data
 │
-├── app/
-│   ├── app.py
-│   └── faiss_youtube_index/
+├── app/                             # Main app directory
+│   ├── app.py                       # Streamlit app interface
+│   └── faiss_youtube_index/        # Local copy of the FAISS index for the app
 │
-├── youtube_transcripts/
+├── youtube_transcripts/            # Educational text data used to build the index
 │   ├── Art.txt
 │   ├── Biology.txt
 │   ├── Chemistry.txt
@@ -41,11 +41,11 @@ PocketWisdomAI/
 │   ├── History.txt
 │   └── Physics.txt
 │
-├── Evaluation.ipynb
-├── VectotStore+Agent&tools.ipynb
-├── YouTube_decipher.ipynb
-├── requirements.txt
-└── .env
+├── Evaluation.ipynb                # Notebook for LangSmith-based evaluation
+├── VectotStore+Agent&tools.ipynb   # Tool definitions, retriever and agent setup
+├── YouTube_decipher.ipynb          # Optional script for extracting YouTube content
+├── requirements.txt                # List of Python dependencies
+└── .env                            # API keys and environment variables
 ```
 
 ## Technologies Used
