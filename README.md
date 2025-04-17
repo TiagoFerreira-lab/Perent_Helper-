@@ -1,6 +1,6 @@
 ### PocketWisdom AI – YouTube-Powered Educational Assistant
 ________________________________________________________________________________________
-##Project Overview
+## Project Overview
 PocketWisdom AI is a RAG-powered educational chatbot that helps parents explain school topics to their children in fun, kid-friendly language. It retrieves knowledge from YouTube transcripts, finds relevant diagrams, and presents simplified educational responses — all driven by GPT-4o-mini.
 
 This project was developed as part of the Ironhack final capstone and uses LangChain, LangSmith, and vector search to build a truly helpful educational assistant.
