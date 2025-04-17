@@ -46,8 +46,6 @@ PocketWisdomAI/
 ├── requirements.txt
 └── .env
 
-
-
 ## Technologies Used
 LangChain + Agents
 
