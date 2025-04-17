@@ -11,7 +11,7 @@ Agent-Powered Tool Usage:
 
 🧾 Document Search: Retrieves relevant YouTube transcript chunks
 
-🧮 Calculator: Performs step-by-step numeric reasoning
+🔢 Calculator: Performs step-by-step numeric reasoning
 
 🖼️ Image Search: Auto-fetches diagrams or visuals related to the topic (no fallbacks used)
 
